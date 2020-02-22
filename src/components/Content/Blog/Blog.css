@@ -1,0 +1,9 @@
+.articleWrapper {
+    display: grid;
+    font-family: 'Montserrat', Helvetica, Arial, serif;
+    font-size: 15px;
+    font-weight: 300;
+    width: 1000px;
+    margin: auto;
+    grid-row-gap: 50px;
+}

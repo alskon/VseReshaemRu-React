@@ -1,0 +1,37 @@
+.previewArticle {
+    border:1px white solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 17px gray;
+}
+.previewArticle img {
+    content: '';
+    display: block;
+}
+.previewArticle:last-child {
+margin-bottom: 40px;
+}
+.previewArticle:hover {
+box-shadow: 4px 4px 17px lightblue
+}
+
+.fullArticle {
+position: fixed;    
+    width:60%;
+    height:60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    background-color:white;
+    border: 5px rgb(12, 136, 12) solid; 
+    border-radius: 10px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.currentArticle {
+    width: 100%;
+    padding:20px;
+}
+.currentArticle p {
+    font-family: 'Ford Antenna', Helvetica, Arial, serif;
+    padding-right: 30px;
+}

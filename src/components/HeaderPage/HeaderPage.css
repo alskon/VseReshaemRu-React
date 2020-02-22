@@ -1,0 +1,9 @@
+.HeaderPage {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', Helvetica, Arial, serif;
+    font-size: 44px;
+    font-weight: 300;
+    padding:30px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(141,141,147,1) 50%, rgba(2,0,36,1) 100%);
+}

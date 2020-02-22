@@ -1,0 +1,16 @@
+.NavigationLink {
+display: block;
+padding: 10px 20px;
+text-decoration: none;
+color: black;
+}
+.activeLink {
+    background-color: cadetblue;
+    color:white;
+}
+
+.NavigationLink:hover {
+    background-color: cadetblue;
+    display: block;
+    color:white;
+}

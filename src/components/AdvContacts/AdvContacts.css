@@ -1,0 +1,13 @@
+.mainSectionContacts {
+    font-family: 'Ford Antenna', Helvetica, Arial, serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 50px 50px 50px;
+    margin-bottom: 50px;
+    border: 1px black solid;
+    text-align: center;
+}
+.mainSectionContacts a {
+    text-decoration: none;
+    color: black;
+}

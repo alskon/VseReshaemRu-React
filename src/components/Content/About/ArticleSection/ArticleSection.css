@@ -1,0 +1,36 @@
+.ArticleSection {
+    text-align: center;
+    width: 1000px;
+    margin: auto;    
+    border-bottom:1px black solid;
+}
+.ArticleSection:last-child {
+    border-bottom:none
+}
+
+.ArticleSection h3{
+    font-size: 32px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.ArticleSection p {
+    text-align: center;
+    font-family: 'Ford Antenna', Helvetica, Arial, serif;
+}
+
+.ArticleSection p:last-child {
+    margin-bottom:32px;
+}
+.ourPersonalGallery {
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    grid-row-gap: 20px;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 80px;
+}
+.ourPersonalGallery img {
+    width: 200px;
+}

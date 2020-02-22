@@ -1,0 +1,19 @@
+.advBlock {
+    font-family: 'Ford Antenna', Helvetica, Arial, serif;
+    font-size: 18px; 
+    width:350px;
+    min-width: 250px;
+    height: 350px;
+    min-height: 250px;
+    padding:20px;
+    margin: 30px;
+    display:flex;
+    align-items:center;
+    border:1px white solid;
+    border-radius: 5px;
+    box-shadow: 4px 4px 17px gray;
+}
+.advBlock:hover {
+    border:1px lightblue solid ;
+    box-shadow: 4px 4px 17px lightblue;
+}

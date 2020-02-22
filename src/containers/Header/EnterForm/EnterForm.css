@@ -1,0 +1,41 @@
+.ModalEnterForm {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+.ModalEnterForm form {
+    border: 1px black solid;
+    width:400px;
+    padding-bottom:40px;
+    padding-left: 40px;
+    color: white;
+    background-color: #015187;
+}
+.ModalEnterForm form input {
+    float: right;
+    margin-right: 40px;
+}
+.ModalEnterForm form button {
+    margin-top:20px;
+    font-weight: 700;
+    border:1px white solid;
+    background-color:rgb(12, 136, 12);
+    color: white;
+    margin-right: 20px;
+    padding:10px;
+}
+.ModalEnterForm form p {
+    margin-bottom: 0;
+}
+.closeEnterForm {
+    margin: 0;
+    padding-right: 10px;
+    float:right;
+    font-size: 28px;
+    font-weight: bold
+}
+.closeEnterForm:hover { 
+    color:black;
+    cursor: pointer;
+}

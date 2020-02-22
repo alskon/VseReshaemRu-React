@@ -1,0 +1,31 @@
+.SectionServices {
+    width:1000px;
+    margin: auto;
+}
+
+.SectionServices h3 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.SectionServices p {
+    font-family: 'Ford Antenna', Helvetica, Arial, serif;
+}
+
+.SectionServices ul {
+    font-family: 'Ford Antenna', Helvetica, Arial, serif;
+    list-style: none;
+}
+
+.SectionServices ul li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px;
+    background-color:rgba(78, 74, 107, 0.6);
+    color: white;
+}
+
+.SectionServices ul li:hover {
+    box-shadow: 4px 4px 17px lightblue
+}

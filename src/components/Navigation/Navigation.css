@@ -1,0 +1,51 @@
+.mainNavMenu {
+    list-style: none;
+    text-align: left;
+}
+.mainNavMenu > li {
+    display: inline-block;
+    margin: 20px;
+}
+.services {
+    display: none;
+    list-style: none;
+    position: absolute;
+    padding: 10px 20px;
+    background-color: gray;
+}
+.services li {
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px black solid;
+    border-top: none;
+    box-shadow: 1px 2px 5px black;
+    background-color: white;
+    display: block;
+}
+.services li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;    
+}
+
+.servicesTop span {
+    display: block;
+    padding:10px 20px
+}
+.servicesTop:hover .services {
+    display: block;
+
+}
+.servicesTop:hover {
+    background-color: cadetblue;
+    color:white
+}
+.services li:hover {
+    background-color: cadetblue;
+}
+.services li a:hover {
+    display: block;
+    color:white;
+}

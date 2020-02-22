@@ -1,0 +1,20 @@
+.mainHeader {
+    display: grid;
+    grid-template-columns: 1fr 2.0fr 0.5fr;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px black solid;
+}
+.logoName {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    align-items: center;
+    text-align: left;
+}
+.logoDescript {
+    font-size: 14px;
+    font-weight: 700;
+}
+.enterUser {
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.mainFooter {
+    font-family: 'Ford Antenna', Helvetica, Arial, serif;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+    border-top: 1px black dotted
+}
+.socialLink {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.socialLinkImg {
+    width:60px;
+}
+.socialLinkInst {
+    text-align: right;
+    margin-right:10px;
+}
+.socialLinkVK {
+    text-align: left;
+    margin-left: 10px;
+}
